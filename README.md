@@ -27,3 +27,8 @@
 - Download node from the official node js website with regards to the operating system , https://nodejs.org/en
 - run the installer application.
 - verify the installation, node -v
+- install sqlite3 library, npm install better-sqlite3
+
+
+     WORKING EXAMPLE
+- 
