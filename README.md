@@ -30,7 +30,7 @@
 - install sqlite3 library, npm install better-sqlite3
 
 
-     WORKING EXAMPLE
+      WORKING EXAMPLE
 - Refer to the [database.js](./database.js) file
 
      AI PROMPT JOURNAL
@@ -48,8 +48,8 @@ prompt used: Take me through the process of creating a simple user model that co
 
  -lets now handle CRUD operations, I need to be able to create a new user, read all the users available in the database, update users in the database and delete users in the database.Explain the key concepts in a clear way 
 
-      COMMON ISSUES AND FIXES
-- one of the issue that I came across was during the initialisation process,running the command node -v to show the node version and hence validate node installation returned uknown error even after I double checked that I had installed node correctly and that the path variables had been updated successfully.
+       COMMON ISSUES AND FIXES
+- one of the issue that I came across was during the installation process,running the command node -v to show the node version and hence validate node installation returned uknown error even after I double checked that I had installed node correctly and that the path variables had been updated successfully.
 
 fix: I figured out that doing a restart of the system solved that issue.
 
