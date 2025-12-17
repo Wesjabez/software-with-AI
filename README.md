@@ -1,6 +1,6 @@
 # SOFTWARE LEARNING WITH AI
      
-     GETTING STARTED WITH NODE JS
+     [GETTING STARTED WITH NODE JS]
 
 -Node js is an open source cross platform run time environment that allows users to run javascript code outside the browser,typically on the server side.
 
