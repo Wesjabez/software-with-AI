@@ -16,3 +16,14 @@
 -Before, javascript was almost used entirely for front end development until developers brought javascript to backend developmet allowing for fullstack development using a single unified language. 
 -it is built on Google's V8 javascript engine which compiles javascript into fast native machine code.
 -it's vast npm registry also provides a lot of packages offering ready made solutions  for common problems and accelerating development.
+
+      SYSTEM REQUIREMENTS
+
+- A working operating system i.e windows OS, mac OS, Linux
+- A code editor
+- Node installed
+
+      INSTALLATION GUIDE
+- Download node from the official node js website with regards to the operating system , https://nodejs.org/en
+- run the installer application.
+- verify the installation, node -v
