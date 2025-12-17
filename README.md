@@ -31,4 +31,7 @@
 
 
      WORKING EXAMPLE
-- 
+- Refer to the [database.js](./database.js) file
+
+     AI PROMPT JOURNAL
+
