@@ -25,7 +25,7 @@ function addUser(username, email) {
         const info = insertUser.run(username, email);
         console.log(`User created with ID: ${info.lastInsertRowid}`);
     } catch (error) {
-        console.error('Error adding user:', error.message); // Likely a unique constraint violation
+        console.error('Error adding user:', error.message);
     }
 }
 
@@ -34,12 +34,17 @@ const selectAllUsers = db.prepare('SELECT * FROM users');
 const selectUserByEmail = db.prepare('SELECT * FROM users WHERE email = ?');
 
 function getUsers() {
-    const users = selectAllUsers.all(); // .all() returns an array
+    const users = selectAllUsers.all(); 
     console.log('All Users:', users);
     return users;
 }
-
+// 
 function getUserByEmail(email) {
-    const user = selectUserByEmail.get(email); // .get() returns a single object or undefined
+    const user = selectUserByEmail.get(email); 
     console.log(`User found (${email}):`, user);
 }
+
+addUser('michael', 'michael@gmail.com')
+addUser('Jane', 'jane001@gmail.com')
+addUser('Eren', 'erenyeager@gmail.com')
+getUserByEmail('erenyeager@gmail.com')
